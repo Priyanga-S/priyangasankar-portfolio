@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import paper1 from "../assets/img/paper1.jpeg";
