@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() );
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Full-Stack Developer"];
+  const toRotate = [ "Software Developer"];
   const period = 500;
 
   useEffect(() => {
@@ -56,10 +56,10 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Priyanga Sankar`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "FullstackDeveloper" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Priyanga Sankar`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Passionate full-stack developer driven by innovation and excellence. Excited to integrate machine learning into skill set for groundbreaking solutions. Thrives on challenges, constantly pushing boundaries in dynamic tech landscape.</p>
                   <button> <a
-          href="https://drive.google.com/file/d/1WBXP7pqZNkTpriDZHJdedy6wWrcZhlq2/view?usp=sharing"
+          href="https://drive.google.com/file/d/165F1OeB2esi2WJVSKv9Scq95dXBGPBgk/view"
           class="btn"
           >Download CV</a
         ></button>

@@ -23,12 +23,12 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Dynamic Dashboard ",
+      title: "Dynamic Dashboard Application",
       description: "Angular, Dashboard, Real-time, Visualization, Decision-making.",
       imgUrl:dashboard,
     },
     {
-      title: "Task Management App",
+      title: "Task Management Application",
       description: "Angular, .NET, Task Management, Collaboration, Efficiency.",
       imgUrl: taskmanagement,
     },
@@ -38,12 +38,12 @@ export const Projects = () => {
       imgUrl: ML,
     },
     {
-      title: "Navigation for Blind people using open CV",
+      title: "Navigation for Blind-CV",
       description: "Navigation, Blind People, OpenCV, Real-time Guidance, Obstacle Detection.",
       imgUrl: CV,
     },
     {
-      title: "Wheeze and Crackle Analysis using DeepLearning",
+      title: "Wheeze and Crackle Analysis-DL",
       description: "Wheeze, Crackle, Deep Learning, Respiratory Conditions, Audio Analysis.",
       imgUrl: DL,
     },
@@ -63,14 +63,18 @@ export const Projects = () => {
     const Paper = [
       {
         title: "Wheeze and Crackle Analysis Using Deep Learning",
-        description: "Deep Learning,Disease Classification,CNN ",
-         imgUrl: paper1,
+        description: "Deep Learning, Disease Classification, CNN",
+        imgUrl: paper1,
+        link: "https://ieeexplore.ieee.org/document/10395739",
       },
       {
-        title: "Age and Gender-Specific Machine Learning Models for Adventitious Lung Sound Detection and Disease Diagnosis: A Sequence Modeling Approach",
-        description: "Machine Learning, SVM,GRU,LSTM Transformer",
+        title: "GUI Toolkit for Pulmonologists",
+        description: "Machine Learning, SVM, GRU, LSTM, Transformer",
         imgUrl: paper2,
-      },];
+        link: "https://ieeexplore.ieee.org/document/10716908",
+      },
+    ];
+    
   return (
     <section className="project" id="projects">
       <Container>
@@ -115,6 +119,7 @@ export const Projects = () => {
             title={project.title}
             description={project.description}
             imgUrl={project.imgUrl}
+            link={project.link}
           />
         </Col>
       ))}

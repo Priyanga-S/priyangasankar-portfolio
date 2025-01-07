@@ -259,7 +259,7 @@ button:hover {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/bg.jpg');
+  background-image: url('./assets/img/footer-bg.png');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -336,7 +336,7 @@ button:hover {
   border-right: 0.08em solid #666;
 }
 
-/************ Skills Css ************/
+/* *********** Skills Css ***********
 .skill {
   padding: 0 0 50px 0;
   position: relative;
@@ -374,7 +374,7 @@ button:hover {
   bottom: 0;
   width: 40%;
   z-index: -4;
-}
+} */
 
 /************ Projects Css ************/
 .project {
@@ -501,6 +501,15 @@ button:hover {
   right: 0;
   z-index: -4;
 }
+.project-card-link {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card-link:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+}
+
 
 /************ Projects Css ************/
 .contact {
@@ -508,7 +517,8 @@ button:hover {
   padding: 60px 0 200px 0;
 }
 .contact img {
-  width: 92%;
+  width: 85%;
+  filter: brightness(40%);
 }
 .contact h2 {
 	font-size: 45px;
@@ -643,7 +653,7 @@ button:hover {
   border-radius: 18px;
 }
 .footer img {
-  width: 26%;
+  width: 20%;
 }
 .footer p {
   font-weight: 400;
@@ -655,4 +665,125 @@ button:hover {
 .portfolio-brand h1 {
   color: #fff; /* Set the font color to white */
 }
+/* Section Styling */
+.education-section {
+  padding: 60px 20px;
+  background-color: #000000;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 40px;
+}
+
+/* Education List */
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Education Card */
+.education-card {
+  background: #68396b;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.education-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Content Styling */
+.education-content {
+  text-align: left;
+}
+
+.education-degree {
+  font-size: 1.5rem;
+  color: #f1f8ff;
+}
+
+.education-institution {
+  font-size: 1.2rem;
+  color: #f1f8ff;
+}
+
+.education-duration {
+  font-size: 1rem;
+  color: #e8e1e1;
+}
+/* Skills Section Styling */
+.skill {
+  padding: 60px 20px;
+  background-color: rgba(0, 0, 0, 0.5); 
+  position: relative;
+}
+
+.skill-bx {
+  text-align: center;
+  padding: 40px;
+  background:  #562b59;
+  border-radius: 30px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.skill-bx h2 {
+  font-size: 2.5rem;
+  color: #050505;
+  margin-bottom: 20px;
+}
+
+.skill-bx p {
+  font-size: 1.5rem;
+  color: #0f0f0f;
+  margin-bottom: 40px;
+}
+
+
+
+/* Carousel Items */
+.skill-slider .item {
+  text-align: center;
+  padding: 30px;
+  background: hsl(0, 9%, 98%);
+  border-radius:25px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.1s ease-in-out;
+  gap: 20px;
+}
+
+.skill-slider .item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.skill-slider img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin: 10 auto 15px;
+}
+
+.skill-slider h1 {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Background Image */
+.background-image-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
 
