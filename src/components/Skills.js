@@ -108,7 +108,7 @@ export const Skills = () => {
                                 
                             </div>
                             <div className="item">
-                                <img src={Es} alt="Image" />
+                                <img src={Es} alt="" />
                                 <h1>Elastic Search</h1>
                                 
                             </div>
