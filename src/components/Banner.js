@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 //import profile from "../assets/img/profile.png";
-import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -10,7 +9,7 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() );
-  const [index, setIndex] = useState(1);
+  const [, setIndex] = useState(1);
   const toRotate = [ "Software Developer"];
   const period = 500;
 
@@ -20,7 +19,7 @@ export const Banner = () => {
     }, delta);
 
     return () => { clearInterval(ticker) };
-  }, [text])
+  }, )
 
   const tick = () => {
     let i = loopNum % toRotate.length;

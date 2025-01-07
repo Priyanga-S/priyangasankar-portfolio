@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 
 import angular from "../assets/img/angular.png"
 import bootstrap from "../assets/img/bootstrap.jpeg"
@@ -14,8 +15,7 @@ import dotcore from "../assets/img/dotcore.png"
  import css from "../assets/img/css.jpeg"
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
+
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
@@ -49,60 +49,60 @@ export const Skills = () => {
                         <p>Showcasing a journey of accomplishments and expertise.<br></br> </p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={angular} alt="Image" />
+                                <img src={angular} alt="" />
                                 <h1>Angular</h1>
                                
                             </div>
                             <div className="item">
-                                <img src={react} alt="Image" />
+                                <img src={react} alt="" />
                                 <h1>React </h1>
                                 
                             </div>
                             <div className="item">
-                                <img src={dotnetframework} alt="Image" />
+                                <img src={dotnetframework} alt="" />
                                 <h1>.NetFramework</h1>
                                 
                             </div>
                             <div className="item">
-                                <img src={dotcore} alt="Image" />
+                                <img src={dotcore} alt="" />
                                 <h1>.NetCore</h1>
                                 
                                 
                             </div>
                             <div className="item">
-                                <img src={csharp} alt="Image" />
+                                <img src={csharp} alt="" />
                                 <h1>C#</h1>
                                
                             </div>
                             <div className="item">
-                                <img src={sql} alt="Image" />
+                                <img src={sql} alt="" />
                                 <h1>SQL</h1>
                                 
                             </div> 
                            
                             <div className="item">
-                                <img src={bootstrap} alt="Image" />
+                                <img src={bootstrap} alt="" />
                                 <h1>Bootstrap</h1>
                                 
                             </div>
                             <div className="item">
-                                <img src={python} alt="Image" />
+                                <img src={python} alt="" />
                                 <h1>Python</h1>
                                 
                             </div>
                             <div className="item">
-                                <img src={powerbi} alt="Image" />
+                                <img src={powerbi} alt="" />
                                 <h1>PowerBi</h1>
                                 
                             </div>
                             <div className="item">
-                                <img src={css} alt="Image" />
+                                <img src={css} alt="" />
                                 <h1>CSS</h1>
                                 
                             </div>
                             
                             <div className="item">
-                                <img src={Gp} alt="Image" />
+                                <img src={Gp} alt="" />
                                 <h1>Grafana Prometheus</h1>
                                 
                                 
@@ -117,7 +117,7 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="" />
     </section>
   )
 }

@@ -397,7 +397,7 @@ button:hover {
   width: 56%;
 }
 .project .nav.nav-pills {
-  width: 72%;
+  width: 98%;
   margin: 0 auto;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
@@ -786,4 +786,8 @@ button:hover {
   z-index: -1;
 }
 
+* {
+  -webkit-print-color-adjust: exact; /* For WebKit browsers */
+  print-color-adjust: exact;
+}
 
